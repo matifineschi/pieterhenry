@@ -91,10 +91,8 @@
 	$('.counter-number').counterUp();
 
 	/* main-slider */
-	$('.slider-active').owlCarousel({
+	$('.myCarousel').owlCarousel({
 		nav:false,
-		slideSpeed : 200,
-        paginationSpeed : 200,
 		animateOut: 'fade',
 		autoplay:true,
     	rewind: true,
@@ -103,7 +101,7 @@
 	})
 
 	$('.carousel').carousel({
-        interval: 4000, //changes the speed
+        interval: 7000, //changes the speed
         pause: "false"
     })
 	
