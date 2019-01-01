@@ -93,8 +93,8 @@
 	/* main-slider */
 	$('.slider-active').owlCarousel({
 		nav:false,
-		slideSpeed : 100,
-        paginationSpeed : 100,
+		slideSpeed : 200,
+        paginationSpeed : 200,
 		animateOut: 'fade',
 		autoplay:true,
     	rewind: true,

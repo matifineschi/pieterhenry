@@ -45,6 +45,7 @@
 html,body {
   font-family: Avenir-Next-R;
   height: 100%;
+  min-height: 100%;
 /*  font-weight: normal;
   font-style: normal;*/
 }
@@ -293,6 +294,12 @@ z-index: 1030;
   overflow: hidden;
   padding: 0;
 }
+.portfolio-head{
+  height: 60%;
+  width: auto;
+  position: relative;
+}
+
 .hero-caption {
   display: table;
   height: 100%;
@@ -697,6 +704,10 @@ nav.nav-menu-show {
   top: 70%;
   transform: translateY(-50%);
   z-index: 99;
+}
+.container-full-w{
+  width: 100%;
+  position: relative;
 }
 .container .enter-section {
   left: 0;
