@@ -101,7 +101,7 @@
 	})
 
 	$('.carousel').carousel({
-        interval: 7000, //changes the speed
+        interval: 5000, //changes the speed
         pause: "false"
     })
 	
