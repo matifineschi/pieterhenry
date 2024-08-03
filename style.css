@@ -42,6 +42,7 @@
   font-family: Avenir-Next-UL;
   src: url("fonts/ANC-UltraLight.ttf");
 }
+
 html,body {
   font-family: Avenir-Next-R;
   height: 100%;
@@ -318,6 +319,25 @@ h1.breadcrumb-2 {
   font-weight: 600;
   letter-spacing: 5px;
 }
+
+.logo-area{
+  display: inline-block;
+  text-align: center;
+}
+.hero-logo {
+  margin-top: 0px !important;
+  margin-bottom: -12px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.hero-logo span {
+  display: block;
+  vertical-align: top;
+  text-align: left;
+}
+
+
 .logo {
   padding: 26px 0;
   transition: all 0.3s ease 0s;
