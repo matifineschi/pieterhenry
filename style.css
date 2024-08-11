@@ -299,7 +299,10 @@ z-index: 1030;
   width: auto;
   position: relative;
 }
-
+.portfolio-head img{
+  object-fit: cover;
+  width: 100%;
+}
 .hero-caption {
   display: table;
   height: 100%;
