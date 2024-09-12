@@ -743,6 +743,13 @@ nav.nav-menu-show {
   -webkit-transition: all ease-in-out 0.25s;
   -moz-transition: all ease-in-out 0.25s;
 }
+.col-container{
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 3fr 1fr ;
+ column-gap: 30px;
+
+}
 
 .basic-slider .container{height:100%}
 .hero-caption {
@@ -804,7 +811,7 @@ nav.nav-menu-show {
 }
 .filter-menu button.active:after , .filter-menu button:hover:after {opacity:1}
 .row-portfolio{margin:0 -10px}
-.row-portfolio .portfolio-item{padding: 0 10px;}
+.row-portfolio .portfolio-item{padding: 10px 10px;}
 .portfolio-wrapper {
   position: relative;
 }
@@ -976,7 +983,7 @@ text-transform: uppercase;
 }
 .area-title {
   margin: 0 auto 60px;
-  width: 60%;
+  width: 70%;
 }
 .area-title h2 {
   display: inline-block;
